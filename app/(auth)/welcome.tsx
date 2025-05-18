@@ -36,7 +36,7 @@ const Onboarding = () => {
         {onboarding.map((item, index) => (
           <View key={item.id} className="flex items-center justify-center p-5">
             <Image
-              source={{ uri: item.image }}
+              source={item.image}
               className="w-full h-[300px]"
               resizeMode="contain"
             />
